@@ -1,0 +1,9 @@
+field_name,field_value
+avg_cpu_usage _%,50.751
+avg_cpu_temperature_C,60.876
+avg_cache_miss_rate_%,5.005
+avg_power_consumption_W,88.914
+avg_power_per_usage,2.515
+avg_temp_per_usage,1.749
+avg_miss_rate_per_usage,0.14
+system_state,STABLE

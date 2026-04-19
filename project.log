@@ -186,3 +186,217 @@
 2026-04-19 12:13:36 | INFO | P6 | Pipeline executed successfully!
 2026-04-19 12:13:36 | INFO | P6 | ========================
 2026-04-19 12:13:36 | INFO | P6 | END main()
+2026-04-19 15:59:28 | INFO | P6 | === RUN START ===
+2026-04-19 15:59:28 | INFO | P6 | project=CINTEL
+2026-04-19 15:59:28 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-19 15:59:28 | INFO | P6 | python=3.14.3
+2026-04-19 15:59:28 | INFO | P6 | os=Windows 11
+2026-04-19 15:59:28 | INFO | P6 | shell=powershell
+2026-04-19 15:59:28 | INFO | P6 | cwd=.
+2026-04-19 15:59:28 | INFO | P6 | github_actions=False
+2026-04-19 15:59:28 | INFO | P6 | ========================
+2026-04-19 15:59:28 | INFO | P6 | START main()
+2026-04-19 15:59:28 | INFO | P6 | ========================
+2026-04-19 15:59:28 | INFO | P6 | ROOT_DIR = .
+2026-04-19 15:59:28 | INFO | P6 | DATA_FILE = data\cpu_metrics_hummel.csv
+2026-04-19 15:59:28 | INFO | P6 | OUTPUT_FILE = artifacts\cpu_assessment_hummel.csv
+2026-04-19 15:59:28 | INFO | P6 | ARTIFACTS_DIR = artifacts
+2026-04-19 15:59:28 | INFO | P6 | STEP 1. Loaded 1180 system records
+2026-04-19 15:59:28 | INFO | P6 | Sorted Records by time
+2026-04-19 15:59:28 | INFO | P6 | STEP 3. Designing signals from raw metrics...
+2026-04-19 15:59:28 | INFO | P6 | Step 3 complete. Signals created.
+2026-04-19 15:59:28 | INFO | P6 | Rolling mean per hour of CPU Usage
+2026-04-19 15:59:28 | INFO | P6 | Row 102: temp=51.06, 
+2026-04-19 15:59:28 | INFO | P6 | Row 204: temp=50.78, 
+2026-04-19 15:59:28 | INFO | P6 | Row 306: temp=52.79, 
+2026-04-19 15:59:28 | INFO | P6 | Row 408: temp=51.00, 
+2026-04-19 15:59:28 | INFO | P6 | Row 510: temp=49.27, 
+2026-04-19 15:59:28 | INFO | P6 | Row 612: temp=50.01, 
+2026-04-19 15:59:28 | INFO | P6 | Row 714: temp=50.43, 
+2026-04-19 15:59:28 | INFO | P6 | Row 816: temp=47.91, 
+2026-04-19 15:59:28 | INFO | P6 | Row 918: temp=48.94, 
+2026-04-19 15:59:28 | INFO | P6 | Row 1020: temp=52.77, 
+2026-04-19 15:59:28 | INFO | P6 | Row 1122: temp=51.30, 
+2026-04-19 15:59:28 | INFO | P6 | STEP 4. Checking for anomalies in system signals...
+2026-04-19 16:01:25 | INFO | P6 | === RUN START ===
+2026-04-19 16:01:25 | INFO | P6 | project=CINTEL
+2026-04-19 16:01:25 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-19 16:01:25 | INFO | P6 | python=3.14.3
+2026-04-19 16:01:25 | INFO | P6 | os=Windows 11
+2026-04-19 16:01:25 | INFO | P6 | shell=powershell
+2026-04-19 16:01:25 | INFO | P6 | cwd=.
+2026-04-19 16:01:25 | INFO | P6 | github_actions=False
+2026-04-19 16:01:25 | INFO | P6 | ========================
+2026-04-19 16:01:25 | INFO | P6 | START main()
+2026-04-19 16:01:25 | INFO | P6 | ========================
+2026-04-19 16:01:25 | INFO | P6 | ROOT_DIR = .
+2026-04-19 16:01:25 | INFO | P6 | DATA_FILE = data\cpu_metrics_hummel.csv
+2026-04-19 16:01:25 | INFO | P6 | OUTPUT_FILE = artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:01:25 | INFO | P6 | ARTIFACTS_DIR = artifacts
+2026-04-19 16:01:25 | INFO | P6 | STEP 1. Loaded 1180 system records
+2026-04-19 16:01:25 | INFO | P6 | Sorted Records by time
+2026-04-19 16:01:25 | INFO | P6 | STEP 3. Designing signals from raw metrics...
+2026-04-19 16:01:25 | INFO | P6 | Step 3 complete. Signals created.
+2026-04-19 16:01:25 | INFO | P6 | Rolling mean per hour of CPU Usage
+2026-04-19 16:01:25 | INFO | P6 | Row 102: temp=51.06, 
+2026-04-19 16:01:25 | INFO | P6 | Row 204: temp=50.78, 
+2026-04-19 16:01:25 | INFO | P6 | Row 306: temp=52.79, 
+2026-04-19 16:01:25 | INFO | P6 | Row 408: temp=51.00, 
+2026-04-19 16:01:25 | INFO | P6 | Row 510: temp=49.27, 
+2026-04-19 16:01:25 | INFO | P6 | Row 612: temp=50.01, 
+2026-04-19 16:01:25 | INFO | P6 | Row 714: temp=50.43, 
+2026-04-19 16:01:25 | INFO | P6 | Row 816: temp=47.91, 
+2026-04-19 16:01:25 | INFO | P6 | Row 918: temp=48.94, 
+2026-04-19 16:01:25 | INFO | P6 | Row 1020: temp=52.77, 
+2026-04-19 16:01:25 | INFO | P6 | Row 1122: temp=51.30, 
+2026-04-19 16:01:25 | INFO | P6 | STEP 4. Checking for anomalies in system signals...
+2026-04-19 16:04:54 | INFO | P6 | === RUN START ===
+2026-04-19 16:04:54 | INFO | P6 | project=CINTEL
+2026-04-19 16:04:54 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-19 16:04:54 | INFO | P6 | python=3.14.3
+2026-04-19 16:04:54 | INFO | P6 | os=Windows 11
+2026-04-19 16:04:54 | INFO | P6 | shell=powershell
+2026-04-19 16:04:54 | INFO | P6 | cwd=.
+2026-04-19 16:04:54 | INFO | P6 | github_actions=False
+2026-04-19 16:04:54 | INFO | P6 | ========================
+2026-04-19 16:04:54 | INFO | P6 | START main()
+2026-04-19 16:04:54 | INFO | P6 | ========================
+2026-04-19 16:04:54 | INFO | P6 | ROOT_DIR = .
+2026-04-19 16:04:54 | INFO | P6 | DATA_FILE = data\cpu_metrics_hummel.csv
+2026-04-19 16:04:54 | INFO | P6 | OUTPUT_FILE = artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:04:54 | INFO | P6 | ARTIFACTS_DIR = artifacts
+2026-04-19 16:04:54 | INFO | P6 | STEP 1. Loaded 1180 system records
+2026-04-19 16:04:54 | INFO | P6 | Sorted Records by time
+2026-04-19 16:04:54 | INFO | P6 | STEP 3. Designing signals from raw metrics...
+2026-04-19 16:04:54 | INFO | P6 | Step 3 complete. Signals created.
+2026-04-19 16:04:54 | INFO | P6 | Rolling mean per hour of CPU Usage
+2026-04-19 16:04:54 | INFO | P6 | Row 102: temp=51.06, 
+2026-04-19 16:04:54 | INFO | P6 | Row 204: temp=50.78, 
+2026-04-19 16:04:54 | INFO | P6 | Row 306: temp=52.79, 
+2026-04-19 16:04:54 | INFO | P6 | Row 408: temp=51.00, 
+2026-04-19 16:04:54 | INFO | P6 | Row 510: temp=49.27, 
+2026-04-19 16:04:54 | INFO | P6 | Row 612: temp=50.01, 
+2026-04-19 16:04:54 | INFO | P6 | Row 714: temp=50.43, 
+2026-04-19 16:04:54 | INFO | P6 | Row 816: temp=47.91, 
+2026-04-19 16:04:54 | INFO | P6 | Row 918: temp=48.94, 
+2026-04-19 16:04:54 | INFO | P6 | Row 1020: temp=52.77, 
+2026-04-19 16:04:54 | INFO | P6 | Row 1122: temp=51.30, 
+2026-04-19 16:04:54 | INFO | P6 | STEP 4. Checking for anomalies in system signals...
+2026-04-19 16:04:54 | INFO | P6 | STEP 4. Using thresholds: MAX_CPS_USAGE=100.0, MAX_CPU_TEMP=110.0, MAX_MISS_RATE=9.0, MAX_POWER=110.0
+2026-04-19 16:04:54 | INFO | P6 | STEP 4. Anomalies detected: 294
+2026-04-19 16:04:54 | INFO | P6 | STEP 4. Wrote anomalies file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_anomalies_hummel.csv
+2026-04-19 16:04:54 | INFO | P6 | STEP 5. Summarizing system state from monitored signals...
+2026-04-19 16:04:54 | INFO | P6 | Summary (one field per line):
+2026-04-19 16:04:54 | INFO | P6 | avg_cpu_usage _%: 50.751
+2026-04-19 16:04:54 | INFO | P6 | avg_cpu_temperature_C: 60.876
+2026-04-19 16:04:54 | INFO | P6 | avg_cache_miss_rate_%: 5.005
+2026-04-19 16:04:54 | INFO | P6 | avg_power_consumption_W: 88.914
+2026-04-19 16:04:54 | INFO | P6 | avg_power_per_usage: 2.515
+2026-04-19 16:04:54 | INFO | P6 | avg_temp_per_usage: 1.749
+2026-04-19 16:04:54 | INFO | P6 | avg_miss_rate_per_usage: 0.14
+2026-04-19 16:04:54 | INFO | P6 | STEP 5. System assessment completed
+2026-04-19 16:04:54 | INFO | P6 | STEP 6. Wrote system assessment file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:04:54 | INFO | P6 | ========================
+2026-04-19 16:04:54 | INFO | P6 | Pipeline executed successfully!
+2026-04-19 16:04:54 | INFO | P6 | ========================
+2026-04-19 16:04:54 | INFO | P6 | END main()
+2026-04-19 16:08:58 | INFO | P6 | === RUN START ===
+2026-04-19 16:08:58 | INFO | P6 | project=CINTEL
+2026-04-19 16:08:58 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-19 16:08:58 | INFO | P6 | python=3.14.3
+2026-04-19 16:08:58 | INFO | P6 | os=Windows 11
+2026-04-19 16:08:58 | INFO | P6 | shell=powershell
+2026-04-19 16:08:58 | INFO | P6 | cwd=.
+2026-04-19 16:08:58 | INFO | P6 | github_actions=False
+2026-04-19 16:08:58 | INFO | P6 | ========================
+2026-04-19 16:08:58 | INFO | P6 | START main()
+2026-04-19 16:08:58 | INFO | P6 | ========================
+2026-04-19 16:08:58 | INFO | P6 | ROOT_DIR = .
+2026-04-19 16:08:58 | INFO | P6 | DATA_FILE = data\cpu_metrics_hummel.csv
+2026-04-19 16:08:58 | INFO | P6 | OUTPUT_FILE = artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:08:58 | INFO | P6 | ARTIFACTS_DIR = artifacts
+2026-04-19 16:08:58 | INFO | P6 | STEP 1. Loaded 1180 system records
+2026-04-19 16:08:58 | INFO | P6 | Sorted Records by time
+2026-04-19 16:08:58 | INFO | P6 | STEP 3. Designing signals from raw metrics...
+2026-04-19 16:08:58 | INFO | P6 | Step 3 complete. Signals created.
+2026-04-19 16:08:58 | INFO | P6 | Rolling mean per hour of CPU Usage
+2026-04-19 16:08:58 | INFO | P6 | Row 102: mean for last hour=51.06, 
+2026-04-19 16:08:58 | INFO | P6 | Row 204: mean for last hour=50.78, 
+2026-04-19 16:08:58 | INFO | P6 | Row 306: mean for last hour=52.79, 
+2026-04-19 16:08:58 | INFO | P6 | Row 408: mean for last hour=51.00, 
+2026-04-19 16:08:58 | INFO | P6 | Row 510: mean for last hour=49.27, 
+2026-04-19 16:08:58 | INFO | P6 | Row 612: mean for last hour=50.01, 
+2026-04-19 16:08:58 | INFO | P6 | Row 714: mean for last hour=50.43, 
+2026-04-19 16:08:58 | INFO | P6 | Row 816: mean for last hour=47.91, 
+2026-04-19 16:08:58 | INFO | P6 | Row 918: mean for last hour=48.94, 
+2026-04-19 16:08:58 | INFO | P6 | Row 1020: mean for last hour=52.77, 
+2026-04-19 16:08:58 | INFO | P6 | Row 1122: mean for last hour=51.30, 
+2026-04-19 16:08:58 | INFO | P6 | STEP 4. Checking for anomalies in system signals...
+2026-04-19 16:08:58 | INFO | P6 | STEP 4. Using thresholds: MAX_CPS_USAGE=100.0, MAX_CPU_TEMP=110.0, MAX_MISS_RATE=9.0, MAX_POWER=110.0
+2026-04-19 16:08:58 | INFO | P6 | STEP 4. Anomalies detected: 294
+2026-04-19 16:08:58 | INFO | P6 | STEP 4. Wrote anomalies file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_anomalies_hummel.csv
+2026-04-19 16:08:58 | INFO | P6 | STEP 5. Summarizing system state from monitored signals...
+2026-04-19 16:08:58 | INFO | P6 | Summary (one field per line):
+2026-04-19 16:08:58 | INFO | P6 | avg_cpu_usage _%: 50.751
+2026-04-19 16:08:58 | INFO | P6 | avg_cpu_temperature_C: 60.876
+2026-04-19 16:08:58 | INFO | P6 | avg_cache_miss_rate_%: 5.005
+2026-04-19 16:08:58 | INFO | P6 | avg_power_consumption_W: 88.914
+2026-04-19 16:08:58 | INFO | P6 | avg_power_per_usage: 2.515
+2026-04-19 16:08:58 | INFO | P6 | avg_temp_per_usage: 1.749
+2026-04-19 16:08:58 | INFO | P6 | avg_miss_rate_per_usage: 0.14
+2026-04-19 16:08:58 | INFO | P6 | STEP 5. System assessment completed
+2026-04-19 16:08:58 | INFO | P6 | STEP 6. Wrote system assessment file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:08:58 | INFO | P6 | ========================
+2026-04-19 16:08:58 | INFO | P6 | Pipeline executed successfully!
+2026-04-19 16:08:58 | INFO | P6 | ========================
+2026-04-19 16:08:58 | INFO | P6 | END main()
+2026-04-19 16:22:40 | INFO | P6 | === RUN START ===
+2026-04-19 16:22:40 | INFO | P6 | project=CINTEL
+2026-04-19 16:22:40 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-19 16:22:40 | INFO | P6 | python=3.14.3
+2026-04-19 16:22:40 | INFO | P6 | os=Windows 11
+2026-04-19 16:22:40 | INFO | P6 | shell=powershell
+2026-04-19 16:22:40 | INFO | P6 | cwd=.
+2026-04-19 16:22:40 | INFO | P6 | github_actions=False
+2026-04-19 16:22:40 | INFO | P6 | ========================
+2026-04-19 16:22:40 | INFO | P6 | START main()
+2026-04-19 16:22:40 | INFO | P6 | ========================
+2026-04-19 16:22:40 | INFO | P6 | ROOT_DIR = .
+2026-04-19 16:22:40 | INFO | P6 | DATA_FILE = data\cpu_metrics_hummel.csv
+2026-04-19 16:22:40 | INFO | P6 | OUTPUT_FILE = artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:22:40 | INFO | P6 | ARTIFACTS_DIR = artifacts
+2026-04-19 16:22:40 | INFO | P6 | STEP 1. Loaded 1180 system records
+2026-04-19 16:22:40 | INFO | P6 | Sorted Records by time
+2026-04-19 16:22:40 | INFO | P6 | STEP 3. Designing signals from raw metrics...
+2026-04-19 16:22:40 | INFO | P6 | Step 3 complete. Signals created.
+2026-04-19 16:22:40 | INFO | P6 | Rolling mean per hour of CPU Usage
+2026-04-19 16:22:40 | INFO | P6 | Row 102: mean for last hour=51.06, 
+2026-04-19 16:22:40 | INFO | P6 | Row 204: mean for last hour=50.78, 
+2026-04-19 16:22:40 | INFO | P6 | Row 306: mean for last hour=52.79, 
+2026-04-19 16:22:40 | INFO | P6 | Row 408: mean for last hour=51.00, 
+2026-04-19 16:22:40 | INFO | P6 | Row 510: mean for last hour=49.27, 
+2026-04-19 16:22:40 | INFO | P6 | Row 612: mean for last hour=50.01, 
+2026-04-19 16:22:40 | INFO | P6 | Row 714: mean for last hour=50.43, 
+2026-04-19 16:22:40 | INFO | P6 | Row 816: mean for last hour=47.91, 
+2026-04-19 16:22:40 | INFO | P6 | Row 918: mean for last hour=48.94, 
+2026-04-19 16:22:40 | INFO | P6 | Row 1020: mean for last hour=52.77, 
+2026-04-19 16:22:40 | INFO | P6 | Row 1122: mean for last hour=51.30, 
+2026-04-19 16:22:40 | INFO | P6 | STEP 4. Checking for anomalies in system signals...
+2026-04-19 16:22:40 | INFO | P6 | STEP 4. Using thresholds: MAX_CPS_USAGE=100.0, MAX_CPU_TEMP=110.0, MAX_MISS_RATE=9.0, MAX_POWER=110.0
+2026-04-19 16:22:40 | INFO | P6 | STEP 4. Anomalies detected: 294
+2026-04-19 16:22:40 | INFO | P6 | STEP 4. Wrote anomalies file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_anomalies_hummel.csv
+2026-04-19 16:22:40 | INFO | P6 | STEP 5. Summarizing system state from monitored signals...
+2026-04-19 16:22:40 | INFO | P6 | Summary (one field per line):
+2026-04-19 16:22:40 | INFO | P6 | avg_cpu_usage _%: 50.751
+2026-04-19 16:22:40 | INFO | P6 | avg_cpu_temperature_C: 60.876
+2026-04-19 16:22:40 | INFO | P6 | avg_cache_miss_rate_%: 5.005
+2026-04-19 16:22:40 | INFO | P6 | avg_power_consumption_W: 88.914
+2026-04-19 16:22:40 | INFO | P6 | avg_power_per_usage: 2.515
+2026-04-19 16:22:40 | INFO | P6 | avg_temp_per_usage: 1.749
+2026-04-19 16:22:40 | INFO | P6 | avg_miss_rate_per_usage: 0.14
+2026-04-19 16:22:40 | INFO | P6 | STEP 5. System assessment completed
+2026-04-19 16:22:40 | INFO | P6 | STEP 6. Wrote system assessment file: C:\Repos\Continuouse_Intelligence\cintel-06-continuous-intelligence\artifacts\cpu_assessment_hummel.csv
+2026-04-19 16:22:40 | INFO | P6 | ========================
+2026-04-19 16:22:40 | INFO | P6 | Pipeline executed successfully!
+2026-04-19 16:22:40 | INFO | P6 | ========================
+2026-04-19 16:22:40 | INFO | P6 | END main()
