@@ -155,3 +155,11 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Phase 4 Changes
+
+I copied the original py file to a new file: continuous_intelligence_hummel.py
+
+I changed the maximum average latency to 30.
+I rounded everything in the system assessment CSV to 3 decimal places.
+I added code to output every line that surpassed the maximum values.
